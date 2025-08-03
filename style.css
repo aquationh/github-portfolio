@@ -1,0 +1,58 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #1e1e1e; /* VSCode dark background */
+  color: #d4d4d4;      /* VSCode text */
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+  background: #252526; /* VSCode panel */
+}
+
+main {
+  padding: 2rem;
+  background: #1e1e1e; /* VSCode background */
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #252526; /* VSCode panel */
+  font-size: 0.9rem;
+  color: #d4d4d4;
+}
+
+footer a {
+  color: #007acc; /* VSCode accent blue */
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+footer a:hover {
+  color: #ffffff; /* white on hover */
+}
+
+/* NAV BUTTONS */
+.nav-buttons a {
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #d4d4d4;
+  background-color: transparent;
+  border: 2px solid #6A9955;
+  /* background-color: #6A9955; VSCode comment green */
+  text-decoration: none;
+  border-radius: 15px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 6px rgba(106,153,85,0.2);
+}
+
+.nav-buttons a:hover {
+  background-color: #4b6e36; /* darker green for hover */
+}
